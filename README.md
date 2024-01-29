@@ -7,4 +7,4 @@ To get the affected area:
 Fill all parameters without target position, compile and run.
 
 To get parametrs of trajectory at specific target:
-Fill all parameters. Uncomment ``cout`` in ``otrMathModel.cpp``. Uncomment ``la.get_res(dt, iter)`` and comment all after this in ``main.cpp``. Compile and run.   
+Fill all parameters. Uncomment ``cout`` in function ``update()``, ``get_res()`` in ``otrMathModel.cpp``. Uncomment ``la.get_res(dt, iter)`` and comment all after this in ``main.cpp``. Compile and run.   
